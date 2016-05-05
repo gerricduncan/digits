@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		2929FA2B1C20605300807AF2 /* digits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = digits; sourceTree = BUILT_PRODUCTS_DIR; };
 		2929FA2E1C20605300807AF2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		29377CB41CDB87E200CC9539 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		29377CB51CDB99B200CC9539 /* CSVRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSVRow.h; sourceTree = "<group>"; };
+		29377CB61CDB9A6400CC9539 /* CSVIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSVIterator.h; sourceTree = "<group>"; };
+		29377CB71CDB9EDD00CC9539 /* dataMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dataMatrix.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				2929FA2E1C20605300807AF2 /* main.cpp */,
+				29377CB41CDB87E200CC9539 /* main.h */,
+				29377CB61CDB9A6400CC9539 /* CSVIterator.h */,
+				29377CB71CDB9EDD00CC9539 /* dataMatrix.h */,
+				29377CB51CDB99B200CC9539 /* CSVRow.h */,
 			);
 			path = digits;
 			sourceTree = "<group>";
@@ -235,6 +243,7 @@
 				2929FA341C20605300807AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
